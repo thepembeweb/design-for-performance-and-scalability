@@ -1,0 +1,19 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,58.4,700.8,USD,"Number of EC2 instances (4), Number of EIPs per instance (5)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,574.82,6897.84,USD,"Operating system (Linux), Quantity (24), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB)"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1184.85,14218.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),S3 Standard,0,561.3,6735.6,USD,S3 Standard storage (10 TB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD," Inbound (from: Internet) 1 TB per month 
+ Outbound (to: Amazon Cloud Front) 20 TB per month 
+"
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,2094.24,25130.88,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (2 TB per month), Additional backup storage (5 TB)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,79.57,954.84,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1791.91,21502.92,USD," Inbound (from: Internet) 20 TB per month 
+ Outbound (to: Internet) 20 TB per month 
+ Intra-Region 0 TB per month 
+"
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+Rationale: We can reduce costs by using cheaper EC2 instances as well as going for single AZ redundancy.,,,,,,,
